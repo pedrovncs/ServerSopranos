@@ -29,7 +29,7 @@ public class SeasonsController {
     public String listAllEpisodes(Request req, Response res) {
         String seasonId = req.params("season_id");
         res.type("application/json");
-        var episodes = apiRepository.getAllEpisodes(Integer.parseInt(seasonId));
+        var episodes = apiRepository.getSeasonEpisodes(Integer.parseInt(seasonId));
 
         if (episodes == null) {
             res.status(204);
@@ -69,8 +69,14 @@ public class SeasonsController {
 
         Episode episode = apiRepository.addEpisode(Integer.parseInt(seasonId), body);
         if (episode == null) {
-            res.status(500);
-            return "Error creating episode.";
+            Season season = apiRepository.getSeason(Integer.parseInt(seasonId));
+            if (season == null) {
+                res.status(404);
+                return "Season not found.";
+            } else {
+                res.status(409);
+                return "Duplicate episode.";
+            }
         }
 
         return gson.toJson(episode);
@@ -87,6 +93,12 @@ public class SeasonsController {
 
         apiRepository.getSeasons().remove(season);
         return gson.toJson(season);
+    }
+
+    public String updateSeason(Request req, Response res){
+        res.type("application/json");
+        res.status(405);
+        return "Method not allowed on Seasons.";
     }
 
 }

@@ -24,6 +24,8 @@ public class Main {
 
             delete("/:season_id", seasonsController::deleteSeason);
 
+            put("/:season_id", seasonsController::updateSeason);
+
             path("/:season_id/episodes/:episode_id", () -> {
                 get("", episodesController::getEpisode);
 

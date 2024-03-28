@@ -1,5 +1,7 @@
 package com.infnet.assessment.controllers;
 
+import com.google.gson.Gson;
+import com.infnet.assessment.models.Episode;
 import com.infnet.assessment.repository.ApiRepository;
 import spark.Request;
 import spark.Response;
@@ -7,6 +9,8 @@ import spark.Response;
 public class EpisodesController {
 
     private final ApiRepository apiRepository;
+
+    private static final Gson gson = new Gson();
 
     public EpisodesController() {
         this.apiRepository = ApiRepository.getInstance();
@@ -16,49 +20,73 @@ public class EpisodesController {
         res.type("application/json");
         String seasonId = req.params("season_id");
         String episodeId = req.params("episode_id");
-        return "Get episode " + episodeId + " from season " + seasonId;
+
+        Episode episode = apiRepository.getEpisode(Integer.parseInt(seasonId), Integer.parseInt(episodeId));
+        if (episode == null) {
+            res.status(404);
+            return "Episode not found.";
+        }
+
+        return gson.toJson(episode);
     }
 
     public String getEpisodeTitle(Request req, Response res){
-        String seasonId = req.params("season_id");
-        String episodeId = req.params("episode_id");
-        return "Get episode " + episodeId + " title from season " + seasonId;
+
+        return apiRepository.getFromParams(req, res, "title");
     }
 
     public String getEpisodeRating(Request req, Response res){
-        String seasonId = req.params("season_id");
-        String episodeId = req.params("episode_id");
-        return "Get episode " + episodeId + " rating from season " + seasonId;
+
+        return apiRepository.getFromParams(req, res, "imdb_rating");
+
     }
 
     public String getEpisodeDescription(Request req, Response res){
-        String seasonId = req.params("season_id");
-        String episodeId = req.params("episode_id");
-        return "Get episode " + episodeId + " description from season " + seasonId;
+
+        return apiRepository.getFromParams(req, res, "description");
     }
 
     public String getEpisodeDirector(Request req, Response res){
-        String seasonId = req.params("season_id");
-        String episodeId = req.params("episode_id");
-        return "Get episode " + episodeId + " director from season " + seasonId;
+
+        return apiRepository.getFromParams(req, res, "director");
     }
 
     public String getEpisodeWriter(Request req, Response res){
-        String seasonId = req.params("season_id");
-        String episodeId = req.params("episode_id");
-        return "Get episode " + episodeId + " writer from season " + seasonId;
+
+        return apiRepository.getFromParams(req, res, "writer");
     }
 
     public String updateEpisode(Request req, Response res){
+        res.type("application/json");
         String seasonId = req.params("season_id");
         String episodeId = req.params("episode_id");
-        return "Update episode " + episodeId + " from season " + seasonId;
+
+        var bodyStr = req.body();
+        var body = gson.fromJson(bodyStr, Episode.class);
+        if(body == null){
+            res.status(400);
+            return "Invalid body.";
+        }
+
+        Episode episode = apiRepository.updateEpisode(Integer.parseInt(seasonId), Integer.parseInt(episodeId), body);
+        if(episode == null){
+            res.status(404);
+            return "Episode not found.";
+        }
+
+        return gson.toJson(episode);
     }
 
     public String deleteEpisode(Request req, Response res){
         String seasonId = req.params("season_id");
         String episodeId = req.params("episode_id");
-        return "Delete episode " + episodeId + " from season " + seasonId;
-    }
 
+        Episode episode = apiRepository.deleteEpisode(Integer.parseInt(seasonId), Integer.parseInt(episodeId));
+        if( episode == null ){
+            res.status(404);
+            return "Episode not found.";
+        }
+
+        return gson.toJson(episode);
+    }
 }

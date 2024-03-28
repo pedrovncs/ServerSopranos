@@ -64,4 +64,12 @@ public class Episode {
     public void setRating(double imdb_rating) {
         this.imdb_rating = imdb_rating;
     }
+
+    public void updateEpisode(Episode newEpisode) {
+        this.title = newEpisode.getTitle();
+        this.director = newEpisode.getDirector();
+        this.writer = newEpisode.getWriter();
+        this.description = newEpisode.getDescription();
+        this.imdb_rating = newEpisode.getRating();
+    }
 }
