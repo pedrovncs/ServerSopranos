@@ -1,0 +1,547 @@
+[
+  {
+    "season": 1,
+    "episodes": [
+      {
+        "episode_number": 1,
+        "title": "The Sopranos",
+        "director": "David Chase",
+        "writer": "David Chase",
+        "description": "Tony Soprano, a mob boss, seeks therapy with Dr. Jennifer Melfi after suffering from panic attacks, while dealing with mob-related issues and family conflicts.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 2,
+        "title": "46 Long",
+        "director": "Dan Attias",
+        "writer": "David Chase",
+        "description": "Tony's crew engages in various activities, including collecting debts and discussing the growing drug problem in their territory.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 3,
+        "title": "Denial, Anger, Acceptance",
+        "director": "Nick Gomez",
+        "writer": "Mark Saraceni",
+        "description": "Tony's mother, Livia, influences Junior Soprano to challenge Tony's leadership, causing tension within the family.",
+        "imdb_rating": 8.6
+      },
+      {
+        "episode_number": 4,
+        "title": "Meadowlands",
+        "director": "John Patterson",
+        "writer": "Jason Cahill",
+        "description": "Tony's concerns over his mother's intentions grow as he juggles his personal life with the demands of his mob duties.",
+        "imdb_rating": 8.8
+      },
+      {
+        "episode_number": 5,
+        "title": "College",
+        "director": "Allen Coulter",
+        "writer": "James Manos Jr.",
+        "description": "Tony takes Meadow on a college visit while handling a hit job, leading to a moral dilemma during the trip.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 6,
+        "title": "Pax Soprana",
+        "director": "Alan Taylor",
+        "writer": "Frank Renzulli",
+        "description": "Tony's attempts to enjoy a peaceful family dinner are interrupted by mob business, leading to further complications.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 7,
+        "title": "Down Neck",
+        "director": "Lorraine Senna Ferrara",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Flashbacks shed light on Tony's childhood while present-day struggles with his son highlight the challenges of parenthood.",
+        "imdb_rating": 8.5
+      },
+      {
+        "episode_number": 8,
+        "title": "The Legend of Tennessee Moltisanti",
+        "director": "Tim Van Patten",
+        "writer": "Frank Renzulli",
+        "description": "Christopher's aspirations to become a made man lead to tension within the crew, while Tony deals with family matters.",
+        "imdb_rating": 8.4
+      },
+      {
+        "episode_number": 9,
+        "title": "Boca",
+        "director": "Andy Wolk",
+        "writer": "Jason Cahill",
+        "description": "Tony's affair with a friend's wife causes complications, while Junior faces consequences for his actions.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 10,
+        "title": "A Hit Is a Hit",
+        "director": "Matthew Penn",
+        "writer": "Joe Bosso & Frank Renzulli",
+        "description": "Tony's attempt to manage a rapper's career intersects with mob business, leading to unforeseen consequences.",
+        "imdb_rating": 8.0
+      },
+      {
+        "episode_number": 11,
+        "title": "Nobody Knows Anything",
+        "director": "Henry J. Bronchtein",
+        "writer": "Frank Renzulli",
+        "description": "Tony faces a crisis when Pussy disappears, leading to suspicions and paranoia within the crew.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 12,
+        "title": "Isabella",
+        "director": "Allen Coulter",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony's mental state deteriorates as he grapples with stress, leading to a hallucinatory encounter.",
+        "imdb_rating": 8.9
+      },
+      {
+        "episode_number": 13,
+        "title": "I Dream of Jeannie Cusamano",
+        "director": "John Patterson",
+        "writer": "David Chase & James Manos Jr.",
+        "description": "Tony's suspicions about those closest to him come to a head, leading to a dramatic confrontation and a shocking revelation.",
+        "imdb_rating": 9.4
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      {
+        "episode_number": 1,
+        "title": "Guy Walks into a Psychiatrist's Office...",
+        "director": "Allen Coulter",
+        "writer": "Jason Cahill",
+        "description": "After therapy, Tony Soprano feels depressed over the negative impact it could have on his children.",
+        "imdb_rating": 8.9
+      },
+      {
+        "episode_number": 2,
+        "title": "Do Not Resuscitate",
+        "director": "Martin Bruestle",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony and Meadow clash over her life choices, while Uncle Junior and Tony spar over how to handle their business.",
+        "imdb_rating": 8.6
+      },
+      {
+        "episode_number": 3,
+        "title": "Toodle-Fucking-Oo",
+        "director": "Lee Tamahori",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony is caught off guard by a surprise reunion with his estranged sister, Janice.",
+        "imdb_rating": 8.5
+      },
+      {
+        "episode_number": 4,
+        "title": "Commendatori",
+        "director": "Tim Van Patten",
+        "writer": "David Chase",
+        "description": "Tony and Paulie travel to Italy on a business trip that turns into a personal odyssey.",
+        "imdb_rating": 8.8
+      },
+      {
+        "episode_number": 5,
+        "title": "Big Girls Don't Cry",
+        "director": "Tim Van Patten",
+        "writer": "Terence Winter",
+        "description": "Christopher and Adriana take drastic measures when her fear of marriage threatens to send him back to his old ways.",
+        "imdb_rating": 8.6
+      },
+      {
+        "episode_number": 6,
+        "title": "The Happy Wanderer",
+        "director": "John Patterson",
+        "writer": "Frank Renzulli",
+        "description": "Richie Aprile gets out after ten years in prison and starts reasserting his authority.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 7,
+        "title": "D-Girl",
+        "director": "Allen Coulter",
+        "writer": "Todd A. Kessler",
+        "description": "Chris becomes a made man, while Tony experiences another panic attack.",
+        "imdb_rating": 8.8
+      },
+      {
+        "episode_number": 8,
+        "title": "Full Leather Jacket",
+        "director": "Henry J. Bronchtein",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Richie tries to involve Tony in a questionable deal.",
+        "imdb_rating": 8.9
+      },
+      {
+        "episode_number": 9,
+        "title": "From Where to Eternity",
+        "director": "Henry J. Bronchtein",
+        "writer": "Michael Imperioli",
+        "description": "Christopher has an out-of-body experience during an operation and he has no recollection of it later.",
+        "imdb_rating": 9.0
+      },
+      {
+        "episode_number": 10,
+        "title": "Bust Out",
+        "director": "John Patterson",
+        "writer": "Frank Renzulli",
+        "description": "Tony and his family have to stay in hiding until Phil Leotardo is dealt with.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 11,
+        "title": "House Arrest",
+        "director": "Tim Van Patten",
+        "writer": "Terence Winter",
+        "description": "Tony's newfound happiness is threatened when Paulie and Christopher cause a rift between him and Pussy.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 12,
+        "title": "The Knight in White Satin Armor",
+        "director": "Allen Coulter",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Ralph's callous behavior finally steps over the line, while Chris gets deeper into his heroin addiction.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 13,
+        "title": "Funhouse",
+        "director": "John Patterson",
+        "writer": "David Chase",
+        "description": "Tony starts having flashbacks about Pussy's betrayal, and Livia becomes increasingly paranoid.",
+        "imdb_rating": 9.4
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      {
+        "episode_number": 1,
+        "title": "Mr. Ruggerio's Neighborhood",
+        "director": "Allen Coulter",
+        "writer": "David Chase",
+        "description": "The FBI finds a new informant, and Carmela starts demanding more respect.",
+        "imdb_rating": 8.9
+      },
+      {
+        "episode_number": 2,
+        "title": "Proshai, Livushka",
+        "director": "Tim Van Patten",
+        "writer": "David Chase",
+        "description": "Tony is on the verge of tears, while Junior is harassed as he begins to think about his future.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 3,
+        "title": "Fortunate Son",
+        "director": "Henry J. Bronchtein",
+        "writer": "Todd A. Kessler",
+        "description": "Christopher is in debt to Tony for providing him with a new life, while Tony is anxious about his future.",
+        "imdb_rating": 8.5
+      },
+      {
+        "episode_number": 4,
+        "title": "Employee of the Month",
+        "director": "John Patterson",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Carmela suggests that her father-in-law invest in her cousin's film project, while Tony and his crew have a new source of income.",
+        "imdb_rating": 8.8
+      },
+      {
+        "episode_number": 5,
+        "title": "Another Toothpick",
+        "director": "Jack Bender",
+        "writer": "Terence Winter",
+        "description": "Richie's temper continues to cause problems for Tony, while Tony is caught off guard by a surprise visit from his father.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 6,
+        "title": "University",
+        "director": "Allen Coulter",
+        "writer": "Terence Winter",
+        "description": "Meadow spends time with Jackie Jr., while Carmela's request that Tony spend more time with AJ backfires.",
+        "imdb_rating": 9.3
+      },
+      {
+        "episode_number": 7,
+        "title": "Second Opinion",
+        "director": "Tim Van Patten",
+        "writer": "Lawrence Konner",
+        "description": "Tony's increasingly stressful home life leads him to seek psychiatric counseling, while Richie's relationship with Janice causes concern for Junior.",
+        "imdb_rating": 9.0
+      },
+      {
+        "episode_number": 8,
+        "title": "He Is Risen",
+        "director": "Allen Coulter",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony becomes more paranoid and skeptical, while Junior's trial looks bleak.",
+        "imdb_rating": 8.7
+      },
+      {
+        "episode_number": 9,
+        "title": "The Telltale Moozadell",
+        "director": "Daniel Attias",
+        "writer": "Michael Imperioli",
+        "description": "Christopher's addiction to heroin continues to spiral out of control, while Tony begins to wonder if he made the right decision regarding Janice.",
+        "imdb_rating": 9.0
+      },
+      {
+        "episode_number": 10,
+        "title": "...To Save Us All from Satan's Power",
+        "director": "Jack Bender",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "The Sopranos try to relax in the days leading up to Christmas, while Janice visits with her new boyfriend.",
+        "imdb_rating": 9.3
+      },
+      {
+        "episode_number": 11,
+        "title": "Pine Barrens",
+        "director": "Steve Buscemi",
+        "writer": "Terence Winter",
+        "description": "Christopher and Paulie are stuck in the woods after a hunting trip goes wrong.",
+        "imdb_rating": 9.6
+      },
+      {
+        "episode_number": 12,
+        "title": "Amour Fou",
+        "director": "Tim Van Patten",
+        "writer": "David Chase",
+        "description": "Carmela's romantic interest in Furio grows, while Tony's behavior becomes increasingly erratic.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 13,
+        "title": "Army of One",
+        "director": "John Patterson",
+        "writer": "David Chase",
+        "description": "Tony's stress leads to a panic attack, while Carmela grows increasingly concerned about Furio.",
+        "imdb_rating": 9.3
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "episodes": [
+      {
+        "episode_number": 1,
+        "title": "For All Debts Public and Private",
+        "director": "Allen Coulter",
+        "writer": "David Chase",
+        "description": "Tony reflects on life while recovering from his gunshot wounds, while Junior adjusts to life under house arrest.",
+        "imdb_rating": 9.1
+      },
+      {
+        "episode_number": 2,
+        "title": "No Show",
+        "director": "John Patterson",
+        "writer": "Terence Winter",
+        "description": "Christopher's drug use continues to spiral out of control, while Tony tries to find a missing VCR player.",
+        "imdb_rating": 8.8
+      },
+      {
+        "episode_number": 3,
+        "title": "Christopher",
+        "director": "Tim Van Patten",
+        "writer": "Michael Imperioli",
+        "description": "Tony's concern over his cousin's behavior grows, while Carmela considers investing in her father's business.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 4,
+        "title": "The Weight",
+        "director": "Jack Bender",
+        "writer": "Terence Winter",
+        "description": "Tony confronts a mysterious man, while Carmela faces pressure to accept a lucrative offer.",
+        "imdb_rating": 8.9
+      },
+      {
+        "episode_number": 5,
+        "title": "Pie-O-My",
+        "director": "Henry J. Bronchtein",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony becomes fascinated with a racehorse named Pie-O-My, while Ralph's behavior becomes increasingly erratic.",
+        "imdb_rating": 9.5
+      },
+      {
+        "episode_number": 6,
+        "title": "Everybody Hurts",
+        "director": "Steve Buscemi",
+        "writer": "Michael Imperioli",
+        "description": "The death of a close friend forces Tony to confront his own mortality, while Paulie seeks revenge for an insult.",
+        "imdb_rating": 9.0
+      },
+      {
+        "episode_number": 7,
+        "title": "Watching Too Much Television",
+        "director": "John Patterson",
+        "writer": "Terence Winter",
+        "description": "Tony faces questions about his relationship with Gloria, while Carmela tries to keep AJ out of trouble.",
+        "imdb_rating": 9.1
+      },
+      {
+        "episode_number": 8,
+        "title": "Mergers and Acquisitions",
+        "director": "Dan Attias",
+        "writer": "David Chase",
+        "description": "Ralph's behavior becomes increasingly disturbing, while Tony tries to broker a peace agreement.",
+        "imdb_rating": 9.4
+      },
+      {
+        "episode_number": 9,
+        "title": "Whoever Did This",
+        "director": "Tim Van Patten",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony deals with the fallout from Ralph's actions, while Christopher's addiction continues to spiral out of control.",
+        "imdb_rating": 9.7
+      },
+      {
+        "episode_number": 10,
+        "title": "The Strong, Silent Type",
+        "director": "Alan Taylor",
+        "writer": "Terence Winter",
+        "description": "Tony becomes suspicious of his family's loyalty, while Carmela faces pressure from her father.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 11,
+        "title": "Calling All Cars",
+        "director": "Tim Van Patten",
+        "writer": "David Chase",
+        "description": "Tony tries to secure his future while dealing with a betrayal, while Carmela seeks refuge at Furio's house.",
+        "imdb_rating": 9.3
+      },
+      {
+        "episode_number": 12,
+        "title": "Eloise",
+        "director": "James Hayman",
+        "writer": "Terence Winter",
+        "description": "Tony faces a tough decision regarding Ralph's fate, while Christopher tries to make a fresh start.",
+        "imdb_rating": 9.5
+      },
+      {
+        "episode_number": 13,
+        "title": "Whitecaps",
+        "director": "John Patterson",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony and Carmela's marriage reaches a breaking point, while Tony tries to salvage his business dealings.",
+        "imdb_rating": 9.8
+      }
+    ]
+  },
+  {
+    "season": 5,
+    "episodes": [
+      {
+        "episode_number": 1,
+        "title": "Two Tonys",
+        "director": "Tim Van Patten",
+        "writer": "David Chase",
+        "description": "Tony struggles to balance his family life with his responsibilities as a mob boss, while Carmela seeks solace in therapy.",
+        "imdb_rating": 9.1
+      },
+      {
+        "episode_number": 2,
+        "title": "Rat Pack",
+        "director": "Alan Taylor",
+        "writer": "Matthew Weiner",
+        "description": "Tony faces questions about his leadership, while Carmela takes steps to secure her financial future.",
+        "imdb_rating": 8.8
+      },
+      {
+        "episode_number": 3,
+        "title": "Where's Johnny?",
+        "director": "John Patterson",
+        "writer": "Michael Imperioli",
+        "description": "Tony tries to keep his business dealings under wraps, while Carmela becomes increasingly concerned about her safety.",
+        "imdb_rating": 8.9
+      },
+      {
+        "episode_number": 4,
+        "title": "All Happy Families...",
+        "director": "John Patterson",
+        "writer": "David Chase",
+        "description": "Tony deals with the fallout from Ralph's actions, while Carmela struggles with her feelings for Furio.",
+        "imdb_rating": 9.2
+      },
+      {
+        "episode_number": 5,
+        "title": "Irregular Around the Margins",
+        "director": "Allen Coulter",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony's relationship with Gloria continues to spiral out of control, while Carmela seeks solace in religion.",
+        "imdb_rating": 9.3
+      },
+      {
+        "episode_number": 6,
+        "title": "Sentimental Education",
+        "director": "Peter Bogdanovich",
+        "writer": "Matthew Weiner",
+        "description": "Tony's affair with Gloria takes a dangerous turn, while Carmela tries to improve her financial situation.",
+        "imdb_rating": 9.4
+      },
+      {
+        "episode_number": 7,
+        "title": "In Camelot",
+        "director": "Steve Buscemi",
+        "writer": "Terence Winter",
+        "description": "Tony tries to secure his future while dealing with a betrayal, while Carmela seeks refuge at Furio's house.",
+        "imdb_rating": 9.5
+      },
+      {
+        "episode_number": 8,
+        "title": "Marco Polo",
+        "director": "John Patterson",
+        "writer": "Michael Imperioli",
+        "description": "Tony faces questions about his leadership, while Carmela takes steps to secure her financial future.",
+        "imdb_rating": 9.1
+      },
+      {
+        "episode_number": 9,
+        "title": "Unidentified Black Males",
+        "director": "Tim Van Patten",
+        "writer": "Terence Winter",
+        "description": "Tony deals with the fallout from Ralph's actions, while Carmela struggles with her feelings for Furio.",
+        "imdb_rating": 9.3
+      },
+      {
+        "episode_number": 10,
+        "title": "Cold Cuts",
+        "director": "Mike Figgis",
+        "writer": "Robin Green & Mitchell Burgess",
+        "description": "Tony faces questions about his leadership, while Carmela takes steps to secure her financial future.",
+        "imdb_rating": 9.6
+      },
+      {
+        "episode_number": 11,
+        "title": "The Test Dream",
+        "director": "Allen Coulter",
+        "writer": "David Chase & Matthew Weiner",
+        "description": "Tony has a series of unsettling dreams, while Carmela seeks comfort in her newfound independence.",
+        "imdb_rating": 9.7
+      },
+      {
+        "episode_number": 12,
+        "title": "Long Term Parking",
+        "director": "Tim Van Patten",
+        "writer": "Terence Winter",
+        "description": "Adriana's involvement with the FBI comes to a head, while Tony tries to maintain control over his empire.",
+        "imdb_rating": 9.8
+      },
+      {
+        "episode_number": 13,
+        "title": "All Due Respect",
+        "director": "John Patterson",
+        "writer": "David Chase & Robin Green & Mitchell Burgess",
+        "description": "Tony faces tough decisions about his future, while Carmela tries to protect her family from harm.",
+        "imdb_rating": 9.9
+      }
+    ]
+  }
+]

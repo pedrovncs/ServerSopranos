@@ -1,0 +1,74 @@
+### List all seasons
+GET http://localhost:8080/seasons
+Content-Type: application/json
+
+### Create a season
+POST http://localhost:8080/seasons
+Content-Type: application/json
+
+{
+  "season": 6,
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Members Only",
+      "director": "Tim Van Patten",
+      "writer": "Terence Winter",
+      "description": "Tony faces questions about his leadership, while Carmela takes steps to secure her financial future.",
+      "imdb_rating": 9.1
+    }
+  ]
+}
+
+### List all episodes from a season
+GET http://localhost:8080/seasons/6/episodes
+Content-Type: application/json
+
+### Create an episode in a season
+POST http://localhost:8080/seasons/6/episodes
+Content-Type: application/json
+
+{
+  "episode_number": 2,
+  "title": "Join the Club",
+  "director": "David Nutter",
+  "writer": "David Chase",
+  "description": "Tony has a series of unsettling dreams, while Carmela seeks comfort in her newfound independence.",
+  "imdb_rating": 9.3
+}
+
+### Delete a season
+DELETE http://localhost:8080/seasons/6
+Content-Type: application/json
+
+### Get episode details
+GET http://localhost:8080/seasons/1/episodes/1
+Content-Type: application/json
+
+### Get episode title
+GET http://localhost:8080/seasons/1/episodes/1/title
+Content-Type: application/json
+
+### Get episode rating
+GET http://localhost:8080/seasons/1/episodes/1/rating
+Content-Type: application/json
+
+### Get episode description
+GET http://localhost:8080/seasons/1/episodes/1/description
+Content-Type: application/json
+
+### Get episode director
+GET http://localhost:8080/seasons/1/episodes/1/director
+Content-Type: application/json
+
+### Get episode writer
+GET http://localhost:8080/seasons/1/episodes/1/writer
+Content-Type: application/json
+
+### Update episode details
+PUT http://localhost:8080/seasons/1/episodes/1
+Content-Type: application/json
+
+### Delete episode
+DELETE http://localhost:8080/seasons/1/episodes/1
+Content-Type: application/json
