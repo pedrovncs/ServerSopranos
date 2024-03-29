@@ -24,7 +24,7 @@ public class Season {
         return episodes;
     }
 
-    public voidsetEpisodes(List<Episode> episodes) {
+    public void setEpisodes(List<Episode> episodes) {
         this.episodes = episodes;
     }
 }
