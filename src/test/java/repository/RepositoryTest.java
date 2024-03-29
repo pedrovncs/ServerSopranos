@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("Episode Controller Tests")
+@DisplayName("Repository tests")
 public class RepositoryTest {
 
     private ApiRepository repo;
@@ -75,6 +75,15 @@ public class RepositoryTest {
         Season added = repo.addSeason(season);
         assertNotNull(added);
         assertEquals(99, added.getSeason());
+    }
+
+    @Test
+    @DisplayName("should return null, duplicated season")
+    void testAddSeasonDuplicated(){
+        List<Episode> episodes = new ArrayList<>();
+        Season season = new Season(1 , episodes);
+        Season added = repo.addSeason(season);
+        assertNull(added);
     }
 
     @Test

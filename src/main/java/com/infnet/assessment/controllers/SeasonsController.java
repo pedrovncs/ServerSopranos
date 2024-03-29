@@ -1,7 +1,6 @@
 package com.infnet.assessment.controllers;
 
 import com.google.gson.Gson;
-import com.infnet.assessment.models.Episode;
 import com.infnet.assessment.models.Season;
 import com.infnet.assessment.repository.ApiRepository;
 import spark.Request;
@@ -51,35 +50,10 @@ public class SeasonsController {
         Season season = apiRepository.addSeason(body);
         if (season == null) {
             res.status(500);
-            return "Error creating season.";
+            return "Duplicated season.";
         }
 
         return gson.toJson(season);
-    }
-
-    public String createEpisode(Request req, Response res) {
-        res.type("application/json");
-        String seasonId = req.params("season_id");
-        var bodyString = req.body();
-        var body = gson.fromJson(bodyString, Episode.class);
-        if (body == null) {
-            res.status(400);
-            return "Invalid body.";
-        }
-
-        Episode episode = apiRepository.addEpisode(Integer.parseInt(seasonId), body);
-        if (episode == null) {
-            Season season = apiRepository.getSeason(Integer.parseInt(seasonId));
-            if (season == null) {
-                res.status(404);
-                return "Season not found.";
-            } else {
-                res.status(409);
-                return "Duplicate episode.";
-            }
-        }
-
-        return gson.toJson(episode);
     }
 
     public String deleteSeason(Request req, Response res) {

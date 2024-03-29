@@ -13,7 +13,7 @@ public class Season {
     }
 
     public int getSeason() {
-        return season;
+        return this.season;
     }
 
     public void setSeason(int season_number) {
@@ -24,7 +24,7 @@ public class Season {
         return episodes;
     }
 
-    public void setEpisodes(List<Episode> episodes) {
+    public voidsetEpisodes(List<Episode> episodes) {
         this.episodes = episodes;
     }
 }

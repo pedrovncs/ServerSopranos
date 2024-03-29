@@ -29,7 +29,7 @@ POST http://localhost:8080/seasons/6/episodes
 Content-Type: application/json
 
 {
-  "episode_number": 1,
+  "episode_number": 2,
   "title": "Join the Club",
   "director": "David Nutter",
   "writer": "David Chase",

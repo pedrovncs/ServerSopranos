@@ -20,7 +20,7 @@ public class Main {
 
             post("", seasonsController::createSeason);
 
-            post("/:season_id/episodes", seasonsController::createEpisode);
+            post("/:season_id/episodes", episodesController::createEpisode);
 
             delete("/:season_id", seasonsController::deleteSeason);
 

@@ -8,7 +8,6 @@ import java.lang.reflect.Type;
 import com.google.gson.reflect.TypeToken;
 import com.infnet.assessment.models.Episode;
 import com.infnet.assessment.models.Season;
-import org.jetbrains.annotations.Nullable;
 import spark.Request;
 import spark.Response;
 
@@ -77,6 +76,9 @@ public class ApiRepository {
     }
 
     public Season addSeason(Season season) {
+        if (season == null || isDuplicatedSeason(season)) {
+            return null;
+        }
         seasons.add(season);
         return season;
     }
@@ -120,6 +122,15 @@ public class ApiRepository {
    public Boolean isDuplicatedEpisode(Season season, Episode episode) {
         for (Episode e : season.getEpisodes()) {
             if (e.getEpisodeNumber() == episode.getEpisodeNumber()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Boolean isDuplicatedSeason(Season season) {
+        for (Season s : seasons) {
+            if (s.getSeason() == season.getSeason()) {
                 return true;
             }
         }
