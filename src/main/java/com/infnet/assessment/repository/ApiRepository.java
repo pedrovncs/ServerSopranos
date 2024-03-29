@@ -17,12 +17,13 @@ public class ApiRepository {
     private static ApiRepository instance;
     private List<Season> seasons;
 
+    private static final Gson gson = new Gson();
+
     private ApiRepository(){
         this.seasons = loadSeasonsFromFile();
     }
 
     private List<Season> loadSeasonsFromFile() {
-        Gson gson = new Gson();
         try {
             FileReader fileReader = new FileReader("src/main/resources/data.json");
             Type seasonListType = new TypeToken<List<Season>>() {}.getType();
@@ -157,9 +158,11 @@ public class ApiRepository {
             res.status(404);
             return "Episode not found.";
         }
-        return getEpisodeInfoString(episode, info);
-    }
 
+        var episodeInfo = getEpisodeInfoString(episode, info);
+
+        return gson.toJson(episodeInfo);
+    }
     public void reloadRepository() {
         this.seasons = loadSeasonsFromFile();
     }

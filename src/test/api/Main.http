@@ -1,9 +1,9 @@
 ### List all seasons
-GET http://localhost:8080/seasons
+GET http://localhost:8081/seasons
 Content-Type: application/json
 
 ### Create a season
-POST http://localhost:8080/seasons
+POST http://localhost:8081/seasons
 Content-Type: application/json
 
 {
@@ -21,11 +21,11 @@ Content-Type: application/json
 }
 
 ### List all episodes from a season
-GET http://localhost:8080/seasons/6/episodes
+GET http://localhost:8081/seasons/6/episodes
 Content-Type: application/json
 
 ### Create an episode in a season
-POST http://localhost:8080/seasons/6/episodes
+POST http://localhost:8081/seasons/6/episodes
 Content-Type: application/json
 
 {
@@ -38,29 +38,29 @@ Content-Type: application/json
 }
 
 ### Update episode
-PUT http://localhost:8080/seasons/6/episodes/1
+PUT http://localhost:8081/seasons/6/episodes/1
 Content-Type: application/json
 
 {
   "episode_number": 1,
-  "title": "Members Only - Teste ",
-  "director": "Tim Van Patten",
-  "writer": "Terence Winter",
-  "description": "Tony faces questions about his leadership, while Carmela takes steps to secure her financial future.",
+  "title": "Members Only - Updated",
+  "director": "Tim Van Patten - Updated",
+  "writer": "Terence Winter - Updated",
+  "description": "Tony faces questions about his leadership, while Carmela takes steps to secure her financial future. - Updated",
   "imdb_rating": 9.1
 }
 
 ### Delete episode
-DELETE http://localhost:8080/seasons/6/episodes/2
+DELETE http://localhost:8081/seasons/6/episodes/2
 Content-Type: application/json
 
 
 ### Delete a season
-DELETE http://localhost:8080/seasons/6
+DELETE http://localhost:8081/seasons/6
 Content-Type: application/json
 
 ### Try to update a season
-PUT http://localhost:8080/seasons/1
+PUT http://localhost:8081/seasons/1
 Content-Type: application/json
 
 {
@@ -78,26 +78,26 @@ Content-Type: application/json
 }
 
 ### Get episode details
-GET http://localhost:8080/seasons/1/episodes/1
+GET http://localhost:8081/seasons/1/episodes/1
 Content-Type: application/json
 
 ### Get episode title
-GET http://localhost:8080/seasons/1/episodes/1/title
+GET http://localhost:8081/seasons/1/episodes/1/title
 Content-Type: text/plain
 
 ### Get episode rating
-GET http://localhost:8080/seasons/1/episodes/1/rating
+GET http://localhost:8081/seasons/1/episodes/1/rating
 Content-Type: text/plain
 
 ### Get episode description
-GET http://localhost:8080/seasons/1/episodes/1/description
+GET http://localhost:8081/seasons/1/episodes/1/description
 Content-Type: text/plain
 
 ### Get episode director
-GET http://localhost:8080/seasons/1/episodes/1/director
+GET http://localhost:8081/seasons/1/episodes/1/director
 Content-Type: text/plain
 
 ### Get episode writer
-GET http://localhost:8080/seasons/1/episodes/1/writer
+GET http://localhost:8081/seasons/1/episodes/1/writer
 Content-Type: text/plain
 

@@ -49,8 +49,9 @@ public class SeasonsController {
 
         Season season = apiRepository.addSeason(body);
         if (season == null) {
-            res.status(500);
-            return "Duplicated season.";
+            res.status(409);
+            res.body("Duplicated Season");
+            return res.body();
         }
 
         return gson.toJson(season);
@@ -72,7 +73,8 @@ public class SeasonsController {
     public String updateSeason(Request req, Response res){
         res.type("application/json");
         res.status(405);
-        return "Method not allowed on Seasons.";
+        res.body("Method not allowed on Seasons.");
+        return res.body();
     }
 
 }

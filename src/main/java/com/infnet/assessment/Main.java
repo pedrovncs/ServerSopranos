@@ -6,12 +6,14 @@ import com.infnet.assessment.controllers.SeasonsController;
 import static spark.Spark.*;
 
 public class Main {
-    private static final int PORT = 8080;
+    private static final int PORT = 8081;
     private static final SeasonsController seasonsController = new SeasonsController();
     private static final EpisodesController episodesController = new EpisodesController();
 
     public static void main(String[] args) {
         port(PORT);
+
+        get("/", (req, res) -> "API is running on port " + PORT);
 
         path("/seasons", () -> {
             get("", seasonsController::listAllSeasons);
